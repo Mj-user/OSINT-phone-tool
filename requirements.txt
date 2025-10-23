@@ -1,0 +1,7 @@
+# Core dependencies for Metasploit-LabKit-MJ
+flask==3.0.3
+requests==2.31.0
+transformers==4.44.2
+torch==2.4.1
+gradio==4.36.1
+pyyaml==6.0.2
