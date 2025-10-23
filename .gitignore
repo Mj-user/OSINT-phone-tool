@@ -1,5 +1,54 @@
-# Object file
-*.o
+# ------------------------------------------
+# OSINT-Phone-Tool — .gitignore
+# Created by MJ & Elara (2025)
+# ------------------------------------------
 
-# Ada Library Information
-*.ali
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# OSINT output logs
+osint_output/
+logs/
+*.csv
+*.xlsx
+
+# Example data or temporary inputs
+numbers.txt
+temp/
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Termux / Linux swap & history
+.bash_history
+.history
+*.swp
+
+# IDE & Editor folders
+.vscode/
+.idea/
+*.code-workspace
+
+# Backup files
+*.bak
+*.old
+
+# Packages & dependencies cache
+pip-wheel-metadata/
+__pypackages__/
+*.egg-info/
+dist/
+build/
+
+# Jupyter & local notebook checkpoints (if used)
+.ipynb_checkpoints/
